@@ -1,38 +1,55 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.NavBar {
+  color: antiquewhite;
+  background-color: #15091a;
+  top: 0;
+  position: relative;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.Net {
+  padding-left: 3rem;
+  font-weight: bold;
+}
+.Body {
+  background-color: #1f0d1c;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.Head {
+  color: #c6ff94;
+  font-size: 3em;
+  height: 5%;
+}
+.Count {
+  color: #f23a3a;
+  font-size: 5em;
+}
+
+.Button {
   color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size :2rem;
+  border-radius: 5px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  background-color: rgba(51, 51, 51, .5);
+  cursor: pointer;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Button:hover {
+  color: black;
+  background-color: #e6e6e6;
 }
